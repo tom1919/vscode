@@ -1,0 +1,38 @@
+[
+    {
+        "key": "alt+q",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "alt+w", 
+        "command": "outline.focus"
+    },
+    {
+        "key": "alt+e",
+        "command": "jupyter.openVariableView",
+        "when": "isWorkspaceTrusted && !notebookKernel || isWorkspaceTrusted && notebookKernel =~ /^ms-toolsai.jupyter\\//"
+    },
+    {
+        "key": "alt+r",
+        "command": "jupyter.createnewinteractive"
+    },
+    {
+        "key": "alt+t",
+        "command": "cSpell.toggleEnableForGlobal"
+    },    
+    {
+        "key": "alt+d",
+        "command": "jupyter.debugcurrentcell.palette",
+        "when": "isWorkspaceTrusted && !jupyter.webExtension"
+    },    
+    {
+        "key": "ctrl+[",
+        "command": "workbench.action.gotoSymbol",
+        "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "editor.action.accessibleViewGoToSymbol",
+        "when": "accessibilityHelpIsShown && accessibleViewGoToSymbolSupported || accessibleViewGoToSymbolSupported && accessibleViewIsShown"
+    },
+]
