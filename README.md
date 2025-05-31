@@ -1,7 +1,6 @@
 ## Keybindings
 
-Move Focus
-| | |
+| Move Focus | |
 |---|---|
 | editor 1 | ctrl 1 |
 | editor 2 | ctrl 2 |
@@ -9,8 +8,7 @@ Move Focus
 | outline | ctrl 4 |
 | variables | ctrl 5 |
 
-Toggle
-| | |
+| Toggle | |
 |---|---|
 | side panel | alt q |
 | bottom panel | alt w |
@@ -18,15 +16,13 @@ Toggle
 | chat | alt r |
 | spell check | alt t |
 
-Execute Code
-| | |
+| Execute Code | |
 |---|---|
 | run line | ctrl \ |
 | run cell | ctrl enter |
 | debug cell | ctrl ] |
 
-Open / Switch
-| | |
+| Open / Switch | |
 |---|---|
 | switch file | ctrl tab |
 | quick open | ctrl p |
