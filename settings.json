@@ -1,0 +1,30 @@
+{
+"security.workspace.trust.untrustedFiles": "open",
+"editor.minimap.enabled": false,
+"editor.rulers": [80],
+"terminal.integrated.cwd": "${workspaceFolder}",
+"jupyter.notebookFileRoot": "${workspaceFolder}",
+"notebook.outline.showCodeCells": true,
+"jupyter.interactiveWindow.cellMarker.decorateCells": "allCells",
+"jupyter.interactiveWindow.codeLens.enable": false,
+"jupyter.interactiveWindow.cellMarker.default": "#%%",
+"jupyter.interactiveWindow.notebookRepl": true,
+"jupyter.askForKernelRestart": false,
+"regexpOutline.headerRulesEachExt": "[{\"ext\": \".py\", \"rules\": [{\"level\": 1, \"format\": \"^#\\\\%\\\\%\\\\s*(.+)$\", \"nameIdx\": 1, \"detail\": \"Python Cell\"}]}]",
+"github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+},
+    "cSpell.languageSettings": [
+        {
+    "languageId": "python",
+    "includeRegExpList": [
+        "/#.*/",
+        "/('''|\"\"\")[^\\1]+?\\1/g",
+        "strings"
+    ]
+}
+],
+}
