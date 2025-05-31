@@ -24,6 +24,7 @@
 
 | Open / Switch | |
 |---|---|
+| go to def | ctrl g |
 | switch file | ctrl tab |
 | quick open | ctrl p |
 | quick symbol | ctrl [ |
