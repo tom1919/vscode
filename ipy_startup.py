@@ -1,5 +1,5 @@
 # This file will be executed every time a new IPython session is started.
-# goes in startup folder of ipython profile (terminal: ipython profile locate)
+# goes in startup folder of ipython profile dir (terminal: ipython profile locate)
 
 
 try:
