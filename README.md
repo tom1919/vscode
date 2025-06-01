@@ -2,8 +2,6 @@
 
 ![keybindings](keybindings.PNG "keybindings")
 
-Remove "ctrl + `" binding in Conemu: https://github.com/Microsoft/vscode/issues/23635
-
 ## Extensioms
 
 - longfish801.regexpoutline
