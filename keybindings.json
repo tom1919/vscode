@@ -1,38 +1,71 @@
+// Place your key bindings in this file to override the defaults
 [
     {
-        "key": "alt+q",
+        "key": "ctrl+3",
         "command": "workbench.view.explorer"
     },
     {
-        "key": "alt+w", 
+        "key": "ctrl+4", 
         "command": "outline.focus"
     },
     {
-        "key": "alt+e",
+        "key": "ctrl+5",
         "command": "jupyter.openVariableView",
         "when": "isWorkspaceTrusted && !notebookKernel || isWorkspaceTrusted && notebookKernel =~ /^ms-toolsai.jupyter\\//"
     },
     {
+        "key": "alt+q",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },    
+    {
+        "key": "alt+w",
+        "command": "workbench.action.togglePanel"
+    },    
+    {
+        "key": "alt+e",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },    
+    {
         "key": "alt+r",
-        "command": "jupyter.createnewinteractive"
-    },
+        "command": "workbench.action.chat.toggle"
+    },  
     {
         "key": "alt+t",
         "command": "cSpell.toggleEnableForGlobal"
+    },         
+    {
+        "key": "alt+p",
+        "command": "workbench.action.pinEditor"
     },    
     {
-        "key": "alt+d",
+        "key": "alt+u", 
+        "command": "workbench.action.unpinEditor"
+    },    
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.closeActiveEditor"
+    },    
+    {
+        "key": "ctrl+e ctrl+e",
+        "command": "workbench.action.closeAllEditors"
+    },    
+    {
+        "key": "ctrl+g",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },    
+    {
+        "key": "ctrl+[",
+        "command": "workbench.action.gotoSymbol"
+    },    
+    {
+        "key": "ctrl+'",
+        "command": "jupyter.createnewinteractive"
+    },
+    {
+        "key": "ctrl+]",
         "command": "jupyter.debugcurrentcell.palette",
         "when": "isWorkspaceTrusted && !jupyter.webExtension"
     },    
-    {
-        "key": "ctrl+[",
-        "command": "workbench.action.gotoSymbol",
-        "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
-    },
-    {
-        "key": "ctrl+[",
-        "command": "editor.action.accessibleViewGoToSymbol",
-        "when": "accessibilityHelpIsShown && accessibleViewGoToSymbolSupported || accessibleViewGoToSymbolSupported && accessibleViewIsShown"
-    },
 ]
