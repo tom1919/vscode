@@ -4,9 +4,9 @@
 ^\::
 {
   Send("{Home}")
-  Send("+{End}")}
+  Send("+{End}")
   Sleep 20
-  Send("+{Enter}")}
+  Send("+{Enter}")
   Send("{Home}")
   Send("{Down}")
 }
