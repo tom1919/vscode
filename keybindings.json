@@ -1,13 +1,21 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+3",
+        "key": "ctrl+1",
         "command": "workbench.view.explorer"
     },
     {
-        "key": "ctrl+4", 
+        "key": "ctrl+2", 
         "command": "outline.focus"
     },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },    
+    {
+        "key": "ctrl+4",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },      
     {
         "key": "ctrl+5",
         "command": "jupyter.openVariableView",
@@ -43,11 +51,11 @@
         "command": "workbench.action.unpinEditor"
     },    
     {
-        "key": "ctrl+e",
+        "key": "ctrl+r",
         "command": "workbench.action.closeActiveEditor"
     },    
     {
-        "key": "ctrl+e ctrl+e",
+        "key": "ctrl+t",
         "command": "workbench.action.closeAllEditors"
     },    
     {
@@ -67,5 +75,5 @@
         "key": "ctrl+]",
         "command": "jupyter.debugcurrentcell.palette",
         "when": "isWorkspaceTrusted && !jupyter.webExtension"
-    },    
+    },
 ]
