@@ -1,0 +1,11 @@
+#Hotif WinActive("ahk_exe Code.exe")
+^\::
+{
+  Send("{Home}")
+  Send("+{End}")}
+  Sleep 20
+  Send("+{Enter}")}
+  Send("{Home}")
+  Send("{Down}")
+}
+#HotIf
